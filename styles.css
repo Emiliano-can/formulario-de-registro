@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color: neongreen;
+  text-align: center;
+}
+
+/* Estilos para el formulario */
+#registrationForm {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 7px 13px 37px #dd0495;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: neongreen;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
